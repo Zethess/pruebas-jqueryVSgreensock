@@ -71,24 +71,25 @@
 	$(document).on("keydown",function(e){
 
 		var keyCode = e.keyCode;
+		console.log(keyCode);
 
 		switch( keyCode ){
-			case 119:
+			case 38:
             case 87:
 				mover("arr");
 			break;
 
-			case 115:
+			case 40:
             case 83:
 				mover("aba");
 			break;
 
-			case 100:
+			case 39:
             case 68:
 				mover("der");
 			break;			
 
-			case 97:
+			case 37:
             case 65:
 				mover("izq");
 			break;
